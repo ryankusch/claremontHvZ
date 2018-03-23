@@ -3,8 +3,8 @@ import json
 from django.http import HttpResponse, HttpRequest
 from HVZ.main.models import Player
 
-def json_get_all_emails(request):
-    """A function that displays every players email
+def json_get_all_names_and_emails(request):
+    """A function that displays every players name and email
     in the current game.
     """
 
