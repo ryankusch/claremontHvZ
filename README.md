@@ -5,12 +5,13 @@ Claremont Humans vs. Zombies Site
 
 This is a mailer application for moderators of the 5C-wide game, Humans vs. Zombies. It allows moderators to quickly email subsets of players registered in the HvZ website. The mailer is only accessible to those with Django admin privileges (which HvZ moderators should have). 
 
-## Prerequisites
+## Architecture
+### Prerequisites
 Python 3,
 Django 2.0,
 Git
 
-## Gems
+### Gems
 Virtualenv,
 Compass
 
