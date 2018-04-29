@@ -92,19 +92,19 @@ To run our unit tests:
 These tests will check registration, feeding, and permission scenarios.
 
 ## Functionality
-W.A.T.:
-Mailer form interface
-Filter by player type
-Multiple school selection filter
-Single file attachments
-BCC recipient list
-Mailer button in navigation bar
-Rotating sender address
+### W.A.T.:
+* Mailer form interface
+* Filter by player type
+* Multiple school selection filter
+* Single file attachments
+* BCC recipient list
+* Mailer button in navigation bar
+* Rotating sender address
 
-Red Bunnies:
-Filter by each college
-Failure page
-Print out player list
+### Red Bunnies:
+* Filter by each college
+* Failure page
+* Print out player list
 
 ## Known Problems
 To check if you have created your virtual environment correctly for python, use `which python3’ to check your python path
