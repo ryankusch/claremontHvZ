@@ -17,8 +17,7 @@ Compass
 ## Installation
 These are the installation instructions from the original creators of the HvZ website. 
 
-Dev machine setup
------------------
+### Dev machine setup
 
 Developing for the site will require [Django](http://www.djangoproject.com/), [VirtualEnv](http://pypi.python.org/pypi/virtualenv/),
 and [Compass](http://rubygems.org/gems/compass). If you are familiar with and have (or know how to
@@ -37,8 +36,7 @@ Secondly, you'll need to install [Compass](http://rubygems.org/gems/compass). Yo
 If you don't have RubyGems installed, get Compass installed using your
 favorite package manager or method.
 
-Building the site
------------------
+### Building the site
 
 Now create a root directory for your site. Mine is
 `~/programming/claremonthvz.org`.
