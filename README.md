@@ -94,13 +94,13 @@ These tests will check registration, feeding, and permission scenarios.
 
 ## Functionality
 ### W.A.T.:
-* Mailer form interface
+* Mailer button in navigation bar
+* Mailer form interface 
 * Filter by player type
-* Multiple school selection filter
+* Multiple school selection filter, the default is all schools are selected
 * Single file attachments
 * BCC recipient list
-* Mailer button in navigation bar
-* Rotating sender address
+* Rotating sender address to get away with the Google's email limit
 
 ### Red Bunnies:
 * Filter by each college
