@@ -1,8 +1,22 @@
 Claremont Humans vs. Zombies Site
 ====================================
 
-This is the website for the Claremont College's biannual HvZ game.
+# Humans vs. Zombies Mailer
 
+This is a mailer application for moderators of the 5C-wide game, Humans vs. Zombies. It allows moderators to quickly email subsets of players registered in the HvZ website. The mailer is only accessible to those with Django admin privileges (which HvZ moderators should have). 
+
+### Prerequisites
+Python 3
+Django 2.0
+Git
+
+### Gems
+Virtualenv
+Compass
+
+## Installation
+
+These are the installation instructions from the original creators of the HvZ website. 
 Dev machine setup
 -----------------
 
@@ -79,3 +93,35 @@ To run our unit tests:
     python manage.py test HVZ
 
 These tests will check registration, feeding, and permission scenarios.
+
+## Functionality
+W.A.T.:
+Mailer form interface
+Filter by player type
+Multiple school selection filter
+Single file attachments
+BCC recipient list
+Mailer button in navigation bar
+Rotating sender address
+
+Red Bunnies:
+Filter by each college
+Failure page
+Print out player list
+
+## Known Problems
+To check if you have created your virtual environment correctly for python, use `which python3’ to check your python path
+If python’s path is the actual directory of your virtual environment, then it is at the right place
+If not, then we suggest you to recreate a virtual environment again
+
+Use “pip install” to resolve missing modules (django, markdown, etc…)
+If you ever get a “no module named ‘root’” error or “returned non-zero exit status 1” developers don’t know how to resolve that yet. Best of luck to you.
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
