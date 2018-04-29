@@ -65,7 +65,7 @@ you add an alias to your .bashrc along the lines of
     alias hvz="cd ~/programming/claremonthvz.org && source bin/activate && cd claremontHvZ/HVZ"
 
 Clone your forked GitHub repo (you don't have to use the command line
-for this):
+for this): The Django 2.0 version is located at the update brach.
 
     git clone git@github.com:MYUSERNAME/claremontHvZ.git
 
@@ -73,7 +73,6 @@ Now complete the build with
 
     python ~/programming/claremonthvz.org/claremontHvZ/setup.py
 
-The Django 2.0 version is located at the update brach.
 If all went well, that should be it! 
 
 ### Running a development version of the server
