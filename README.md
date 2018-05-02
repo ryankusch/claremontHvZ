@@ -52,7 +52,7 @@ substitute accordingly.
 
 Now build a virtualenv in the root directory, which for me was
 
-    virtualenv ~/programming/claremonthvz.org
+    virtualenv -p python3 ~/programming/claremonthvz.org
 
 Virtualenv provides a wrapper between your machine and the site. As
 long as the site only interacts with packages inside this wrapper, we
@@ -72,9 +72,9 @@ you add an alias to your .bashrc along the lines of
     alias hvz="cd ~/programming/claremonthvz.org && source bin/activate && cd claremontHvZ/HVZ"
 
 Clone your forked GitHub repo (you don't have to use the command line
-for this): The Django 2.0 version is located at the update brach.
+for this):
 
-    git clone -b update https://github.com/HvZWAT/claremontHvZ.git
+    git clone https://github.com/HvZWAT/claremontHvZ.git
 
 Enter into the claremontHvZ directory
 
@@ -82,7 +82,7 @@ Enter into the claremontHvZ directory
 
 Now complete the build with
 
-    python setup.py
+    python3 setup.py
 
 It is likely that after running this command, you will receive an error: `ModuleNotFoundError: No module named <module_name>`. If you receive this error, run the command `pip3 install <module_name>` where <module_name> will be the name of some module such as “django” or “markdown”. After installing the given module with the aforementioned command, rerun the above command `python setup.py` to complete the build. If necessary, repeat these steps to import any missing modules until the build successfully completes.
 
@@ -95,7 +95,7 @@ If you have not been prompted to create a superuser during this
 process, enter the following command and follow the prompts to 
 enter a username, email, and password of your choice.
 
-    python manage.py createsuperuser
+    python3 manage.py createsuperuser
 
 If all went well, that should be it! 
 
@@ -103,7 +103,7 @@ If all went well, that should be it!
 
 To run a development version of the server:
 
-    python manage.py runserver
+    python3 manage.py runserver
 
 You can then access the site by directing your browser to `localhost:8000`.
 
@@ -111,7 +111,7 @@ You can then access the site by directing your browser to `localhost:8000`.
 
 To run our unit tests:
 
-    python manage.py test HVZ
+    python3 manage.py test HVZ
 
 These tests will check registration, feeding, and permission scenarios.
 
